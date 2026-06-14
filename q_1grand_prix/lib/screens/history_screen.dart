@@ -14,8 +14,9 @@ class HistoryScreen extends StatelessWidget {
         appBar: AppBar(
           title: const Text(
             'マイベスト履歴',
-            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
+            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
           ),
+           backgroundColor: Colors.blue[500],
         ),
         body: const Center(child: Text('まだ履歴はありません。')),
       );
