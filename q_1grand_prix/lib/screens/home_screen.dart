@@ -105,11 +105,10 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.lightBlue[50],
       appBar: AppBar(
-        title: const Center(
-          child: Text(
-            'Q-1 グランプリ',
-            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
-          ),
+        centerTitle: true,
+        title: const Text(
+          'Q-1 グランプリ',
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         ),
         backgroundColor: Colors.blue[500],
         actions: [
